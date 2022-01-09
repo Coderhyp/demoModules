@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <scroll />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import groupSelect from './components/group-select.vue'
+import scroll from './components/scroll.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // groupSelect,
+    scroll
   }
 }
 </script>
